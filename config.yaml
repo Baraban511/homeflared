@@ -1,0 +1,14 @@
+name: "Homeflared"
+description: "Install cloudflared and launch a Cloudflare tunnel with a token"
+version: "1.2.6"
+slug: "homeflared"
+url: "https://github.com/Baraban511/homeflared"
+init: false
+arch:
+  - aarch64
+startup: "services"
+boot: "auto"
+options:
+  tunnel_token: ""
+schema:
+  tunnel_token: "str"
